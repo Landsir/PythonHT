@@ -6,9 +6,9 @@
 # - 1 -> нет
 
 day = int(input('Input a number of a week day '))
-if day > 8:
-    print('incorrect number')
-elif day == 6 or 7:
-    print("yes, it's a holiday, let's have a drink")
-else: print("no, this is a working day, work harder")
+if day > 7:
+     print('incorrect number')
+elif day == 6 or day==7:
+     print("it's a holiday, let's have a drink")
+else: print("this is a working day, work harder")
 
